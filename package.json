@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jest": "^24.8.0",
+    "lowdb": "^1.0.0",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "node server/app.js",
+    "db:reset": "rm -rf db.json"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0"
+  }
+}
